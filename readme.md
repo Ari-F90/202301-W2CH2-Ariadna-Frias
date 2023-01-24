@@ -10,17 +10,17 @@ Testea la función desde otro fichero con este set de pruebas:
 - Cuando se comparan **A** y **B**
 - Entonces el resultado será **Result**
 
-| A   | B   | RESULT |
-| --- | --- | ------ |
+  | A   | B   | RESULT |
+  | --- | --- | ------ |
 
-    1  1   true
-    NaN	NaN	false	// Rule Exception
-    0	-0	true	// Rule Exception
-    -0	0	true	// Rule Exception
-    1	"1"	false
-    true	false	false
-    false	false	true
-    "Water"	"oil"	false
+      1  1   true
+      NaN	NaN	false	   // Rule Exception
+      0	-0	true	   // Rule Exception
+      -0	0	true	   // Rule Exception
+      1	"1"	false
+      true	false	false
+      false	false	true
+      "Water"	"oil"	false
 
 - Crea un repo como siempre, con los mismos hook husky que anteriormente
 - Creamos proyecto incluido ESLint (airbnb) y prettier
