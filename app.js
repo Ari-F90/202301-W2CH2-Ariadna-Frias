@@ -3,7 +3,6 @@ import { strictEquals } from './tools.js';
 console.log(strictEquals(1, 1));
 console.log(strictEquals(NaN, NaN));
 console.log(strictEquals(0, -0));
-
 console.log(strictEquals(-0, 0));
 console.log(strictEquals(1, '1'));
 console.log(strictEquals(true, false));
